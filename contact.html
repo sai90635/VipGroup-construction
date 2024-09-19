@@ -16,42 +16,42 @@
 <body>
     <!--header section start-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-2">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bold fs-5 text-success" href="#">VIP<span style="color: orangered;">Groups</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link active" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-          <!--login and callto us button start-->
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-               <a class="nav-link" href="./signin.html"><i class="bi bi-person-circle"></i></a>
-              </li>
-              <li class="nav-item">
-               <a class="btn btn-outline-success">CallUsNow</a>
-              </li>
-            </ul>
-          <!--login and callto us button end-->
-          </div>
-       </div>
-      </nav>
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-5 text-success" href="#">VIP<span style="color: orangered;">Groups</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        <!--login and callto us button start-->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+             <a class="nav-link" href="./signin.html"><i class="bi bi-person-circle"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-success nav-link" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">GetQuote</a>
+            </li>
+          </ul>
+        <!--login and callto us button end-->
+        </div>
+     </div>
+    </nav>
      <!--header section end-->
      
       <!--contact section start-->
@@ -98,6 +98,71 @@
           </div>
          </div>
       <!--contact us section end-->
+
+
+      <!--FAQ section start-->
+      <div class="container p-3">
+        <!--FAQ header start-->
+        <div class="faq-header mb-3">
+          <h3 class="fw-bold text-success display-8">Frequently Asked <span style="color: orangered;">Questions</span></h3>
+        </div>
+        <!--FAQ header end-->
+        <!--FAQ section-content start-->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Specifications
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Is your company licensed and/or insured?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Licensing, bonding, and insurance are all important for several different areas of construction, from general contracting to more niche areas of the field. There are all kinds of requirements that vary by state and industry, but ultimately every company needs to be properly insured and licensed to do business. Not only should you tell people that you are, but you should explain what all that entails. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What kind of construction do you specialize in?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                If you’re a general contractor, this is your place to boast about the variety of work that you’ve done and how versatile your skills are. Or, talk about your one favorite area of work. For specialized construction teams, such as roofers or commercial remodeling construction companies, this is where you can talk all about the projects that you have undertaken in the past and the work that you are capable of doing. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                How long does a typical construction project take?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                This is one of those “million-dollar questions” that no one ever really has an answer to. Everyone wants a timeline but there’s not really a way to pin one down until a project is bid on, budgeted, planned, and ready to go to the final approval before work starts. You can find ballpark estimates online if you want to offer them, but it’s best to use this space to tell people that you’ll be able to discuss what they want and figure out a timeline that works for everyone.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FAQ section-content end-->
+      </div>
+
+
+      <!--FAQ section end-->
       <!--contact section end-->
       
      <!--footer section start-->
@@ -159,6 +224,60 @@
       </div>
     </footer>
    <!--footer section end-->
+    <!--model pop box start-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-success" id="exampleModalToggleLabel">VIP<span style="color: orangered;">Groups</span></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="./Assets/project2.png" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">GetQuote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Details</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!--Form-Content start-->
+            <form class="row g-3">
+              <div class="col-md-12">
+                <label for="inputName" class="form-label">FullName</label>
+                <input type="text" class="form-control" id="inputName">
+              </div>
+              <div class="col-md-12">
+                <label for="inputmobile" class="form-label">Mobile</label>
+                <input type="tel" class="form-control" id="inputmobile">
+              </div>
+              <div class="col-md-12">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">Remodelling</option>
+                <option value="2">design</option>
+                <option value="3">renovation</option>
+              </select>
+              </div>
+            </form>
+            <!--Form-Content end-->
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--model pop box end-->
      <!--script-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

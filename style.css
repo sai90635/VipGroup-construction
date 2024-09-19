@@ -22,3 +22,38 @@
         background-position: center center;
     }
 } */
+
+
+.modal-body>img{
+    height: 50vh;
+    width: 100%;
+}
+
+
+
+/* home-banner-section */
+.home-banner{
+     height: 70vh;
+     width: 100%;
+}
+
+.carousel-item>img{
+     height: 70vh;
+     width: 100%;
+}
+
+
+@media screen and (max-width:576px){
+    .carousel-item>img{
+        height: 30vh;
+        width: 100%;
+   }
+   .home-banner{
+    height: 70vh;
+    width: 100%;
+   }
+   .modal-body>img{
+    height: 50vh;
+    width: 100%;
+   }
+}
